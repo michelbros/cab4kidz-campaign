@@ -38,7 +38,7 @@ nav .brand-logo {
 }
 
 .section-pink {
-  background-color: #f127a7;
+  background-color: rgb(241, 114, 167);
   padding: 1rem 0 1rem 0;
 }
 
@@ -55,11 +55,11 @@ nav .brand-logo {
 
 /* Form */
 .input-field input[type=email]:focus + label {
-  color: #f127a7 !important;
+  color: rgb(241, 114, 167) !important;
 }
 
 .input-field input[type=email]:focus {
-  border-bottom: 1px solid #f127a7 !important;
+  border-bottom: 1px solid rgb(241, 114, 167) !important;
   box-shadow: none !important;
 }
 
