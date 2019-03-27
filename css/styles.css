@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500');
 
+/* Globala fonts */
 body {
   font-family: 'Montserrat', sans-serif;
 }
@@ -20,6 +21,7 @@ p {
   font-weight: 300;
 }
 
+/* Nav */
 nav ul a {
   color: #6d707a;
   font-weight: 200;
@@ -33,10 +35,12 @@ nav .brand-logo {
   margin-top: 0.4rem;
 }
 
+/* Img-klasser */
 .responsive-image {
   max-width: 17%;
 }
 
+/* Sektioner */
 .section-pink {
   background-color: rgb(241, 114, 167);
   padding: 1rem 0 1rem 0;
@@ -59,6 +63,7 @@ nav .brand-logo {
   box-shadow: none !important;
 }
 
+/* Responsive */
 @media only screen and (max-width: 992px) {
 
   .responsive-image {
