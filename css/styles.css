@@ -22,6 +22,11 @@ p {
 }
 
 /* Nav */
+
+a:hover {
+  color: rgb(241, 114, 167);
+}
+
 nav ul a {
   color: #6d707a;
   font-weight: 200;
@@ -32,12 +37,13 @@ nav a {
 }
 
 nav .brand-logo {
-  margin-top: 0.4rem;
+  margin-top: 0.5%;
+  max-width: 15%;
 }
 
 /* Helpers */
 .responsive-image {
-  max-width: 17%;
+  max-width: 100%;
 }
 
 .wrapper {
@@ -94,11 +100,21 @@ nav .brand-logo {
 }
 
 /* Responsive */
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1150px) {
+  nav .brand-logo {
+    margin-top: 0.7%;
+    max-width: 18%;
+  }
 
-  .responsive-image {
+  .container {
+    width: 90vw;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  nav .brand-logo {
+    margin-top: 0.5%;
     max-width: 60%;
-    margin: 4% 0 0 17.5%;
   }
 
   .wrapper {
