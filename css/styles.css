@@ -29,6 +29,14 @@ nav a {
   color: #000;
 }
 
+nav .brand-logo {
+  margin-top: 0.4rem;
+}
+
+.responsive-image {
+  max-width: 17%;
+}
+
 .section-pink {
   background-color: #f127a7;
   padding: 1rem 0 1rem 0;
@@ -46,4 +54,12 @@ nav a {
 .input-field input[type=email]:focus {
   border-bottom: 1px solid #f127a7 !important;
   box-shadow: none !important;
+}
+
+@media only screen and (max-width: 992px) {
+
+  .responsive-image {
+    max-width: 60%;
+    margin-left: 4.5rem;
+  }
 }
