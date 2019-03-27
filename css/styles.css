@@ -1,7 +1,16 @@
+h1 {
+  color: #fff;
+  margin-bottom: 2.8rem;
+}
+
 nav ul a {
   color: #000;
 }
 
 nav a {
   color: #000;
+}
+
+.section {
+  background-color: #f127a7;
 }
