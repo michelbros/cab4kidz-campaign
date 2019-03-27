@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500');
 
 body {
   font-family: 'Montserrat', sans-serif;
@@ -21,7 +21,8 @@ p {
 }
 
 nav ul a {
-  color: #000;
+  color: #6d707a;
+  font-weight: 200;
 }
 
 nav a {
