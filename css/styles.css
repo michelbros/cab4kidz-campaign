@@ -37,7 +37,7 @@ nav a {
   max-height: 15vh;
 }
 
-/* label focus color */
+/* Form */
 .input-field input[type=email]:focus + label {
   color: #f127a7 !important;
 }
