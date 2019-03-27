@@ -46,6 +46,23 @@ nav .brand-logo {
   padding: 1rem 0 1rem 0;
 }
 
+.section {
+  padding: 1.4rem 0 0 0;
+}
+
+.row {
+  margin-bottom: 0;
+}
+
+.car {
+  background: url(../media/c4k_bil.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 25vh;
+  margin-top: 10px
+}
+
 .section-school {
   background: url(../media/kids.jpg);
   background-size: cover;
