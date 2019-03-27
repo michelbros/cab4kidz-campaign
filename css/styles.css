@@ -36,3 +36,13 @@ nav a {
 .section {
   max-height: 15vh;
 }
+
+/* label focus color */
+.input-field input[type=email]:focus + label {
+  color: #f127a7 !important;
+}
+
+.input-field input[type=email]:focus {
+  border-bottom: 1px solid #f127a7 !important;
+  box-shadow: none !important;
+}
