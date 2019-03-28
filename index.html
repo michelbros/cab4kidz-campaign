@@ -7,12 +7,12 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <link rel="stylesheet" href="css/styles.css">
-  <script defer src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+  <script async src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
   <script defer src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </head>
 <body>
   <!-- NAV -->
-  <nav class="white" role="navigation">
+  <nav class="white" role="navigation" id="nav">
     <div class="nav-wrapper container">
       <a id="logo-container" href="http://cab4kidz.philipaxelsson.me" class="brand-logo">
         <img src="media/Cab4kidz2x.png" alt="Logo" class="responsive-image">
@@ -47,10 +47,10 @@
   <div class="section">
     <div class="container">
       <div class="row">
-        <div class="col s12 m6">
+        <div class="col s12 m6" id="left">
           <div class="car"></div>
         </div>
-        <div class="col s12 m6">
+        <div class="col s12 m6" id="right">
           <h3>Bjud in en vän och få en rabattkupong!</h3>
           <p>När du får en vän att testa Cab4Kidz får du nästa resa för halva priset. Prova nu!</p>
           <div class="row">
@@ -65,7 +65,7 @@
   </div>
 
   <!-- Skolkampanj -->
-  <div class="section-school">
+  <div class="section-school" id="bottom">
     <div class="wrapper">
       <h2>Back To School</h2>
     </div>
