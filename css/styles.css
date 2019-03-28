@@ -37,8 +37,12 @@ nav a {
 }
 
 nav .brand-logo {
-  margin-top: 0.5%;
+  margin-top: 0.9%;
   max-width: 15%;
+}
+
+nav ul a:hover{
+  background-color: #FFF;
 }
 
 /* Helpers */
